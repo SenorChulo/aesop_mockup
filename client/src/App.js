@@ -9,8 +9,15 @@ function App() {
         <div className="header"> 
             HI
         </div>
-        <div className="body"> 
+        <div className="body slider"> 
+        <button id='back' className='glyphicon glyphicon-chevron-left'>
+            
+          </button>
+       
           <AromaticProducts/>
+          <button id='front' className='glyphicon glyphicon-chevron-right'>
+            
+          </button>
         </div>
 
         <div className="footer"> 
