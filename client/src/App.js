@@ -1,13 +1,16 @@
-import React from 'react';
-
+import React, {Component} from 'react';
+import './components/slider'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-     
-    </div>
-  );
-}
+export default class app extends Component {
 
-export default App;
+
+
+  render() {
+    return(
+      <div>
+
+      </div>
+    )
+  }
+}
