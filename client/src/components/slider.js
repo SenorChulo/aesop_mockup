@@ -18,7 +18,7 @@ function Products() {
 
             </div>
             <OpenNav/>
-            <CloseNav/>
+           <CloseNav/>
         </React.Fragment>
     )
 }
