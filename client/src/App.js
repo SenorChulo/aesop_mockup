@@ -29,7 +29,7 @@ class App extends  Component{
   onClickRight(event){
     event.preventDefault();
     if(this.state.rightClicked===false){
-      this.setState({x:50})
+      this.setState({x:-50})
       this.setState({rightClicked:true})
     }
     else{
@@ -41,7 +41,7 @@ class App extends  Component{
   onClickLeft(event){
     event.preventDefault();
     if(this.state.leftClicked===false){
-      this.setState({x:-50})
+      this.setState({x:50})
       this.setState({leftClicked:true})
     }
     else{
@@ -53,12 +53,6 @@ class App extends  Component{
   }
   render(){
     return (
-      <div className="App">
-        <div className="page">
-          <div className="header"> 
-              HI
-          </div>
-          <div className='body'>
             <div className='slider'> 
                <button id='back' className='glyphicon glyphicon-chevron-left' onClick={this.onClickLeft}>
               
@@ -70,15 +64,7 @@ class App extends  Component{
                 <button id='front' className='glyphicon glyphicon-chevron-right' onClick={this.onClickRight}>
               
                 </button>
-            </div>
-          </div>
-          <div className="footer"> 
-            HI
-          </div>
-  
-  
-        </div>
-         </div>
+            </div>            
     );
   }
 
