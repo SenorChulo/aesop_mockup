@@ -2,7 +2,7 @@ import React from 'react'
 
 function CloseNav() {
    return( 
-    document.getElementById("myContainer")
+    document.getElementById("myContainer").style.width=`250px`
     )
   }
 
