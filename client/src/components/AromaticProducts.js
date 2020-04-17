@@ -41,12 +41,9 @@ class AromaticProducts extends Component {
         return(
             this.state.products.map((product,index)=>{return(
                 <React.Fragment>
-                    <div className='box'>
-                    <img src={product.image} alt="main" width='100%' height='200px'></img>
-
-                    <h3>{product.productName}</h3><caption>{product.description}</caption>
-                  <div>
-                  </div>                         
+                    <div className='box'>                        
+                         <img src={product.image} alt="main" ></img>
+                         <h3>{product.productName}</h3><caption>{product.description}</caption>                      
                     </div>
 
                 </React.Fragment>

@@ -5,7 +5,7 @@ html, body
 {
     margin: 0;
     height: 100%;
-    
+    scroll-behavior: unset;
 }
 .App {
   text-align: center;
@@ -46,26 +46,26 @@ html, body
   height:80%; 
   display: flex;  
   flex-direction: row; 
-  
+  align-items: center;
+  justify-items: center;  
 }
 .slider{
   width:100%;
   height:100vh;
-  margin:0;
-  padding:0;
-  display:flex;
-  align-items: center;
-  justify-items: center;
+  position: relative;
 }
 .box{
   display: flex;  
   flex-direction: column; 
+  min-width: 30%;
+  height: 80vh;
   align-items: center;
   justify-content: center;
 }
 .slide{
-  min-width: 30%;
-  height: 80vh;
+  display: flex;
+  flex: 1;
+  position:absolute
 }
 button{
   border: none;
